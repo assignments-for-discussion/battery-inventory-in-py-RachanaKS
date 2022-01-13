@@ -23,6 +23,6 @@ def test_bucketing_by_number_of_cycles():
     assert (counts["highCount"] == 2)
     print("Done counting :)")
 
-
+    
 if __name__ == '__main__':
     test_bucketing_by_number_of_cycles()
